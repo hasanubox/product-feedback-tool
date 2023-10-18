@@ -11,6 +11,11 @@ cp .env.example .env
 ```shell
 composer install
 ```
+## 2. Install Node Dependencies
+```shell
+npm install
+```
+
 # 3. Configure the Database and Email
 
 - In the `.env` file you created in step 1, set up your database and email credentials:
@@ -25,12 +30,17 @@ composer install
 ```shell
 php artisan migrate --seed
 ```
-## 6. Start the Development Server
+## 6. Set application key 
+You can run the development server using the following command:
+```shell
+php artisan key:generate
+```
+## 7. Start the Development Server
 You can run the development server using the following command:
 ```shell
 php artisan serve
 ```
-## 7. Compile Frontend Assets
+## 8. Compile Frontend Assets
 ```shell
 npm run dev
 ```
