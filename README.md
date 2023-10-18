@@ -1,6 +1,6 @@
 ## Project Setup
 
-This document provides instructions on setting up and running the project. Follow these steps to get started.
+This document provides instructions on setting up and running the project. After clone the project please follow these steps to get started
 
 1. Copy `.env.example` to `.env`
 
